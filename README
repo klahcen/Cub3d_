@@ -1,0 +1,32 @@
+# cub3D
+
+A simple first-person raycasting engine inspired by *Wolfenstein 3D*, built in C using MiniLibX.
+
+## Features
+
+- 3D maze rendering from a first-person view
+- Raycasting-based engine
+- Wall textures (N/S/E/W)
+- Floor and ceiling colors
+- Movement (W/A/S/D) and rotation (←/→)
+- Clean exit (ESC or close window)
+- `.cub` config/map file parsing
+
+## Build & Run
+
+```bash
+make
+./cub3D path/to/map.cub
+```
+
+## Controls
+
+- `W`, `A`, `S`, `D`: Move
+- `←`, `→`: Rotate view
+- `ESC`: Exit
+
+## Bonus (Optional)
+
+- Minimap
+- Wall collisions
+- Doors, mouse look, animated sprites
